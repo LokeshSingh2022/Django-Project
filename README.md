@@ -9,12 +9,19 @@ python manage.py startproject projdir
 Now the project tree will look like this.
 
 ├── manage.py
+
 └── projdir
+
     ├── __init__.py
+    
     ├── asgi.py
+    
     ├── settings.py
+    
     ├── urls.py
+    
     └── wsgi.py
+    
 Now we’ve created the Django project, and now we have two options to proceed. One is to create the apps next to projdir or create an app inside the project folder and will continue developing from it.
 
 Two Methods
@@ -33,21 +40,37 @@ python manage.py startapp core projdir/core
 Now that we have created the folder structure lets see how the tree structure look like.
 
 ├── manage.py
+
 └── projdir
+
     ├── __init__.py
+    
     ├── app1
+    
     │   ├── __init__.py
+    
     │   ├── admin.py
+    
     │   ├── apps.py
+    
     │   ├── migrations
+    
     │   │   └── __init__.py
+    
     │   ├── models.py
+    
     │   ├── tests.py
+    
     │   └── views.py
+    
     ├── asgi.py
+    
     ├── settings.py
+    
     ├── urls.py
+    
     └── wsgi.py
+    
 Apps created by the startapp command will have all the necessary files for the Django app. Now how do we point this to installed apps.
 
 Installed apps
