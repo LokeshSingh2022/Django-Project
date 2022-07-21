@@ -1,6 +1,7 @@
 # Django-Project
 A Brief Structure of Django &amp; it's Database Implementation.
 
+https://studygyaan.com/wp-content/uploads/2019/07/Best-Practice-to-Structure-Django-Project-Directories-and-Files-1024x676.png
 
 Create a project
 Creating the project is very easy in Django; It’s just the startproject command, and it will create a few files and folders in your project. Let’s see what those are…
