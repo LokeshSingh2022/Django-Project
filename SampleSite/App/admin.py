@@ -1,6 +1,6 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import LokeshModel
+from .models import State_details
 
-admin.site.register(LokeshModel)
+admin.site.register(State_details)
